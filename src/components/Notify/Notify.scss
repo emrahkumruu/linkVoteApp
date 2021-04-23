@@ -1,0 +1,16 @@
+.notify {
+  position: fixed;
+  top: 65px;
+  right: 20px;
+  margin-left: 20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -ms-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+
+  &.active {
+    opacity: 1;
+  }
+}

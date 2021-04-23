@@ -1,0 +1,16 @@
+.link-item {
+  position: relative;
+
+  &:hover {
+    .link-item--delete {
+      display: inline-block;
+    }
+  }
+
+  &--delete {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
